@@ -20,7 +20,7 @@
         <button class="boton-nav" onclick="mostrarInicioSesion()">Iniciar sesión</button>
         <button class="boton-nav" onclick="mostrarRegistro()">Registrarse</button>
         <div class="contenedor-usuario" onclick="toggleBarraLateral()" style="display: none;">
-            <img src="./images/user-icon.png" alt="Usuario" class="icono-usuario">
+            <img src="/images/user-icon.png" alt="Usuario" class="icono-usuario">
             <span id="nombre-usuario">Usuario</span>
         </div>
     </div>
@@ -28,7 +28,7 @@
 <!-- NUEVO: Barra Lateral de Navegación -->
 <div class="barra-lateral" id="barra-lateral">
     <div class="logo-barra-lateral">
-        <img src="./images/logo.png" alt="Logo Incluteach">
+        <img src="logo.png" alt="Logo Incluteach">
         <h2 class="texto-incluteach">Incluteach</h2>
     </div>
     <div class="opciones-barra-lateral">
@@ -115,25 +115,25 @@
 <!-- Contenedor principal -->
 <div class="contenedor-principal">
     <!-- Logo -->
-    <img src="./images/logo.png" alt="Logo de la Empresa" class="logo">
+    <img src="/images/logo.png" alt="Logo de la Empresa" class="logo">
 
     <!-- Botón Comenzar -->
     <button class="boton-comenzar">Comenzar</button>
 </div>
 <!--Sobre Nosotros Wa -->
 <div class="sobre-nosotros-seccion" style="display: none;">
-    <img src="./images/logo.png" alt="Logo de la Empresa" class="logo">
+    <img src="/images/logo.png" alt="Logo de la Empresa" class="logo">
     <div class="recuadros-container">
         <div class="recuadro" onclick="mostrarInformacion('quienes-somos')">
-            <img src="./images/team.png" alt="¿Quiénes somos?" class="recuadro-imagen">
+            <img src="./assets/images/team.png" alt="¿Quiénes somos?" class="recuadro-imagen">
             <h3>¿Quiénes somos?</h3>
         </div>
         <div class="recuadro" onclick="mostrarInformacion('que-buscamos')">
-            <img src="./images/goal.png" alt="¿Qué buscamos?" class="recuadro-imagen">
+            <img src="/images/goal.png" alt="¿Qué buscamos?" class="recuadro-imagen">
             <h3>¿Qué buscamos?</h3>
         </div>
         <div class="recuadro" onclick="mostrarInformacion('como-trabajamos')">
-            <img src="./images/work.png" alt="¿Cómo trabajamos?" class="recuadro-imagen">
+            <img src="/images/work.png" alt="¿Cómo trabajamos?" class="recuadro-imagen">
             <h3>¿Cómo trabajamos?</h3>
         </div>
     </div>
@@ -229,7 +229,7 @@
 <!-- Modal de Inicio de Sesión (inicialmente oculto) -->
 <div id="modal-inicio-sesion" class="modal-inicio-sesion">
     <div class="contenido-modal">
-        <img src="./images/logo.png" alt="Logo de la Empresa" class="logo-modal">
+        <img src="/images/logo.png" alt="Logo de la Empresa" class="logo-modal">
         <div class="contenedor-input">
             <input type="text" id="input-usuario" class="input-sesion" placeholder="Nombre de Usuario">
             <input type="password" class="input-sesion" placeholder="Contraseña">
@@ -240,7 +240,7 @@
 <!--Nuevo modal de registro (después del modal de inicio de sesión):-->
 <div id="modal-registro" class="modal-inicio-sesion">
     <div class="contenido-modal">
-        <img src="./images/logo.png" alt="Logo de la Empresa" class="logo-modal">
+        <img src="/images/logo.png" alt="Logo de la Empresa" class="logo-modal">
         <div class="contenedor-input">
             <input type="text" id="input-registro-usuario" class="input-sesion" placeholder="Nombre de Usuario">
             <input type="email" class="input-sesion" placeholder="Correo electrónico">
@@ -250,7 +250,7 @@
         <button onclick="registrarUsuario()" class="boton-inicio-sesion">Registrarse</button>
     </div>
 </div>
-    <!-- Modal de Inicio de Sesión (inicialmente oculto...) -->
 <script src="main.js"></script>
+<!--Prueba de modificacion):-->
 </body>
 </html>
