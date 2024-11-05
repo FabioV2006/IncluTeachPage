@@ -212,15 +212,15 @@ function mostrarInformacion(tipo) {
     const informacion = {
         'quienes-somos': {
             titulo: '¿Quiénes somos?',
-            contenido: 'Contenido pendiente...'
+            contenido: 'En IncluTeach, somos una startup comprometida con la educación inclusiva y el apoyo a familias y profesores de estudiantes con necesidades especiales. Nuestra plataforma es un recurso completo que proporciona guías, herramientas y un espacio comunitario para aquellos que buscan mejorar la calidad de enseñanza y desarrollo de estos estudiantes. Nos especializamos en ofrecer materiales didácticos, estrategias prácticas y formación continua para que los profesores y familiares se sientan apoyados en cada paso del camino.'
         },
         'que-buscamos': {
             titulo: '¿Qué buscamos?',
-            contenido: 'Contenido pendiente...'
+            contenido: 'Buscamos construir una comunidad de educadores y familias comprometidas con una educación inclusiva de calidad. Nuestra misión es mejorar la enseñanza y el apoyo para los estudiantes con necesidades especiales, asegurando que sus experiencias educativas sean lo más enriquecedoras y personalizadas posible. Sabemos que una educación adaptada y accesible cambia vidas, y queremos ser el recurso confiable que los educadores y familias necesitan para enfrentar los desafíos y brindar un aprendizaje efectivo.'
         },
         'como-trabajamos': {
             titulo: '¿Cómo trabajamos?',
-            contenido: 'Contenido pendiente...'
+            contenido: 'En IncluTeach, trabajamos de manera colaborativa y centrada en las necesidades de nuestros usuarios. Utilizamos un enfoque Lean UX para diseñar y actualizar continuamente nuestra plataforma, asegurando que cada funcionalidad esté alineada con lo que los profesores y familias realmente necesitan. Ofrecemos una amplia gama de recursos y personalización para adaptarse a diferentes niveles y estilos de aprendizaje. Además, nuestra plataforma fomenta la colaboración y el intercambio de experiencias, ya que creemos que el aprendizaje compartido es fundamental para crecer juntos.'
         }
     };
 
